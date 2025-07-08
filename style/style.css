@@ -19,6 +19,14 @@
     color: #474747;
 }
 
+.h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+.p-center{
+    text-align: center;
+}
 
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -97,4 +105,28 @@ ul li a {
 
 .nihad-photo {
     width: 370px;
+}
+/* main one */
+.main-one{
+    padding: 131px 157px;
+    background-color: #FFF8F3;
+    margin: 100px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-one-container{
+    width: 827px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.main-one-p {
+    padding-block: 30px;
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
