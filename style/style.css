@@ -160,3 +160,26 @@ ul li a {
 .skill-discription{
     width: 140px;
 }
+
+.main-three-h2{
+    text-align: center;
+}
+
+.main-three-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 150px 0 150px;
+}
+.one{
+    width: 511px;
+}
+.main-three-clo-one-h3{
+    padding-block: 20px;
+}
+.one-p{
+    font-size: 12px;
+}
+.h6{
+    padding-block: 5px;
+}
