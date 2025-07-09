@@ -183,3 +183,11 @@ ul li a {
 .h6{
     padding-block: 5px;
 }
+.main-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-four-btn{
+    margin-top: 50px;
+}
