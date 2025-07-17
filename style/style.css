@@ -260,6 +260,9 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+    nav{
+        margin: 20px 50px;
+    }
     .header{
         background-image: none;
     }
@@ -326,6 +329,7 @@ footer {
 
 .footer-one{
     text-align: center;
+    margin: 0 20px;
 }
 .icons{
     justify-content: center;
