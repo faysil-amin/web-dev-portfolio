@@ -218,7 +218,7 @@ footer {
 
 .footer-one-discription {
     font-size: 12px;
-    width: 420px;
+    max-width: 420px;
     padding-block: 15px;
 }
 
@@ -236,10 +236,10 @@ footer {
     justify-content: space-evenly;
 }
 
-.input {
+.input{
     border: none;
     padding-left: 30px;
-    width: 430px;
+    min-width: 380px;
     height: 64px;
     border-radius: 5px;
 }
@@ -249,7 +249,7 @@ footer {
     border-inline: none;
     border: none;
     padding-left: 30px;
-    width: 430px;
+    min-width: 380px;
     border-radius: 5px;
 }
 .footer-one{
@@ -319,4 +319,19 @@ footer {
     padding: 10px;
 }
 
+.footer-container{
+    flex-direction: column;
+}
+
+
+.footer-one{
+    text-align: center;
+}
+.icons{
+    justify-content: center;
+}
+.footer-one-discription{
+    margin: 0 auto;
+
+}
 }
