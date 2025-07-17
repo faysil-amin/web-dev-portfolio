@@ -255,3 +255,33 @@ footer {
 .footer-one{
     margin-top: 100px;
 }
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .main-two-p{
+        margin: 30px 0;
+    }
+    .skill{
+        margin-bottom: 10px;
+    }
+    .main-three-main {
+    margin: 20px 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.one{
+    width: 100%;
+}
+.one,.main-three-clo-one-h3{
+    text-align: center;
+}
+.main-three-clo-one-h3{
+    color: gray;
+}
+}
